@@ -42,7 +42,7 @@ public class Main {
                         } else {
                             switch (args[i]) {
                                 case "-D":
-                                case "-debug":
+                                case "--debug":
                                     arg = args[i];
                                     if (args.length > i + 1) {
                                         i++;
